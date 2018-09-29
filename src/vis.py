@@ -104,7 +104,7 @@ if __name__ == "__main__":
     camera_params = [6.8574390102580356, 399.82839300101642, 0.86950537352213109, -0.015051591866106547]
     car_params_all = [[-1.18892403,  6.24860725,  6.79912993], [ 1.15937309,  5.89879014, -2.23985101]]
 
-    drawn = visualize_all(img, camera_params, car_params_all, category_mask=cm)
+    drawn = visualize_all(img, camera_params, car_params_all, category_mask=None)
     cv2.imshow("", drawn)
     cv2.waitKey(0)
 

@@ -83,7 +83,7 @@ if __name__ == "__main__":
     # car_params_all = [[-1.18892403,  6.24860725,  6.79912993], [ 1.15937309,  5.89879014, -2.23985101]]
 
     total_loss(camera_params, car_params_all, CARS_GT, img.shape)
-    drawn = vis.visualize_all(img, camera_params, car_params_all, category_mask=cm)
+    drawn = vis.visualize_all(img, camera_params, car_params_all, category_mask=None)
 
     # cv2.imshow("", img)
     # cv2.waitKey(0)

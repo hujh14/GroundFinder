@@ -16,16 +16,15 @@ python main.py
 ```
 
 ## Results:
-![Original](data/parking_lot.jpg)
-![New](examples/keypoints.jpg)
-![New](examples/vis_cars.jpg)
-![New](examples/vis_above.jpg)
-![New](examples/vis_all.jpg)
+![](examples/keypoints.jpg)
+![](examples/vis_cars.jpg)
+![](examples/vis_above.jpg)
+![](examples/vis_all.jpg)
 
 
 ## Coordinate System
 * World coordinates
-![Original](examples/pinhole_camera_model.png)
+![](examples/pinhole_camera_model.png)
 * Camera coordinates
 
 
